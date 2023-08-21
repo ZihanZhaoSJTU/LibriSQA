@@ -15,6 +15,11 @@ Training: https://www.openslr.org/resources/12/train-clean-360.tar.gz
 testing: https://www.openslr.org/resources/12/test-clean.tar.gz
 ### 2. Download LibriSQA
 The dataset is available at [Huggingface](https://huggingface.co/datasets/ZihanZhao/LibriSQA)
+
+## Model
+
+<img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
+
 ## Acknowledgement
 Librispeech: An ASR corpus based on public domain audio books: -- https://ieeexplore.ieee.org/abstract/document/7178964
 
@@ -25,9 +30,6 @@ LLaMA-Adapter: Efficient Fine-tuning of Language Models with Zero-init Attention
 PMC-VQA: Visual Instruction Tuning for Medical Visual Question Answering -- https://arxiv.org/abs/2305.10415
 
 We thank the authors for their great idea and open-sourced code which helped us with this paper.
-## Model
-
-<img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
 
 ## Contribution
 
