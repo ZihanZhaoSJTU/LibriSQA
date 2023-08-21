@@ -12,6 +12,7 @@ We have released the dataset. The code will be released soon.
 ## Usage
 ### 1. Download the speech from LibriSpeech
 Training: https://www.openslr.org/resources/12/train-clean-360.tar.gz
+
 testing: https://www.openslr.org/resources/12/test-clean.tar.gz
 ### 2. Download LibriSQA
 The dataset is available at [Huggingface](https://huggingface.co/datasets/ZihanZhao/LibriSQA)
