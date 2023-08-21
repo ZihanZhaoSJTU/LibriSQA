@@ -10,7 +10,7 @@ While Large Language Models (LLMs) have demonstrated commendable performance acr
 We have released the dataset. The code will be released soon.
 
 ## Usage
-### 1. Download the speech from Librispeech
+### 1. Download the speech from LibriSpeech
 Training: https://www.openslr.org/resources/12/train-clean-360.tar.gz
 testing: https://www.openslr.org/resources/12/test-clean.tar.gz
 ### 2. Download LibriSQA
@@ -21,7 +21,7 @@ The dataset is available at [Huggingface](https://huggingface.co/datasets/ZihanZ
 <img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
 
 ## Acknowledgement
-Librispeech: An ASR corpus based on public domain audio books: -- https://ieeexplore.ieee.org/abstract/document/7178964
+LibriSpeech: An ASR corpus based on public domain audio books: -- https://ieeexplore.ieee.org/abstract/document/7178964
 
 LLaMA: Open and Efficient Foundation Language Models -- https://arxiv.org/abs/2302.13971
 
