@@ -1,8 +1,7 @@
 # LibriSQA
-<center>
+<div align="center">
     <img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/overview.png" width="600">
-</center>
-
+</div>
 The official codes for LibriSQA: Pioneering Free-form and Open-ended Spoken Question Answering with a Novel Dataset and Framework
 
 While Large Language Models (LLMs) have demonstrated commendable performance across a myriad of domains and tasks, existing LLMs still exhibit a palpable deficit in handling multimodal functionalities, especially for the Spoken Question Answering (SQA) task which necessitates precise alignment and deep interaction between speech and text features. To address the SQA challenge on LLMs, we initially curated the free-form and open-ended LibriSQA dataset from Librispeech, comprising Part I with natural conversational formats and Part II encompassing multiple-choice questions followed by answers and analytical segments. Both parts collectively include 107k SQA pairs that cover various topics. Given the evident paucity of existing speech-text LLMs, we propose a lightweight, end-to-end framework to execute the SQA task on the LibriSQA, witnessing significant results. By reforming ASR into the SQA format, we further substantiate our framework's capability in handling ASR tasks. Our empirical findings bolster the LLMs' aptitude for aligning and comprehending multimodal information, paving the way for the development of universal multimodal LLMs.
@@ -18,8 +17,10 @@ testing: https://www.openslr.org/resources/12/test-clean.tar.gz
 The dataset is available at [Huggingface](https://huggingface.co/datasets/ZihanZhao/LibriSQA)
 
 ## Model
+<div align="center">
+    <img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
+</div>
 
-<img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
 
 ## Acknowledgement
 LibriSpeech: An ASR corpus based on public domain audio books: -- https://ieeexplore.ieee.org/abstract/document/7178964
