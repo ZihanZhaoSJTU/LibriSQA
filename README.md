@@ -2,8 +2,23 @@
 <a href='https://huggingface.co/datasets/ZihanZhao/LibriSQA'><img src='https://img.shields.io/badge/Dataset-Page-Green'></a> <a href='https://arxiv.org/pdf/2308.10390.pdf'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 <p align="center">
-    <img src="logo.jpg" width="18%"> <br>
+    <img src="Pictures/logo.jpg" width="18%"> <br>
 </p>
+
+- [LibriSQA](#librisqa-advancing-free-form-and-open-ended-spoken-question-answering-with-a-novel-dataset-and-framework)
+  - [Introduction](#introduction)
+  - [Usage](#usage)
+    - [1. Download the speech from LibriSpeech](#1-download-the-speech-from-librispeech)
+    - [2. Download LibriSQA](#2-download-librisqa)
+  - [Model](#model)
+  - [Demo](#demo)
+    - [1. Automatic speech recognition (ASR)](#1-automatic-speech-recognition-asr)
+    - [2. Automatic speech recognition (ASR) without LibriSpeech](#2-automatic-speech-recognition-asr-without-librispeech)
+    - [3. LibriSQA Part I](#3-librisqa-part-i)
+    - [4. LibriSQA Part II](#4-librisqa-part-ii)
+  - [Acknowledgement](#acknowledgement)
+  - [Contribution](#contribution)
+  - [Citation](#citation)
 
 ## Introduction
 
@@ -12,7 +27,7 @@
 We have released the dataset and we will release the code soon.
 
 <div align="center">
-    <img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/overview.png" width="600">
+    <img src="Pictures/overview.png" width="600">
 </div>
 
 ## Usage
@@ -25,9 +40,37 @@ The dataset is available at [Huggingface](https://huggingface.co/datasets/ZihanZ
 
 ## Model
 <div align="center">
-    <img src="https://github.com/ZihanZhaoSJTU/LibriSQA/blob/main/model.png" width="600">
+    <img src="Pictures/model.png" width="600">
 </div>
 
+## Demo
+### 1. Automatic speech recognition (ASR)
+Trained with LibriSpeech [1] with SQA format.
+
+<div align="center">
+    <img src="Pictures/demo1.png" width="600">
+</div>
+
+### 2. Automatic speech recognition (ASR) without LibriSpeech
+Trained with our LibriSQA **without** any speech-text pair.
+
+<div align="center">
+    <img src="Pictures/demo2.png" width="600">
+</div>
+
+### 3. LibriSQA Part I
+Trained with LibriSQA Part I.
+
+<div align="center">
+    <img src="Pictures/demo3.png" width="600">
+</div>
+
+### 4. LibriSQA Part II
+Trained with LibriSQA Part II.
+
+<div align="center">
+    <img src="Pictures/demo4.png" width="600">
+</div>
 
 ## Acknowledgement
 [1] LibriSpeech: An ASR corpus based on public domain audio books: -- https://ieeexplore.ieee.org/abstract/document/7178964
