@@ -93,7 +93,7 @@ If you use LibriSQA for your research, please cite our [paper](https://arxiv.org
 
 ```
 @article{zhao2023librisqa,
-         title={LibriSQA: Pioneering Free-form and Open-ended Spoken Question Answering with a Novel Dataset and Framework},
+         title={LibriSQA: Advancing Free-form and Open-ended Spoken Question Answering with a Novel Dataset and Framework},
          author={Zhao, Zihan and Jiang, Yiyang and Liu, Heyang and Wang, Yanfeng and Wang, Yu},
          journal={arXiv preprint arXiv:2308.10390},
          year={2023}
